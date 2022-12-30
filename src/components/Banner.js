@@ -71,7 +71,7 @@ export const Banner = () => {
                       <span className="wrap"> {text}</span>
                     </h1>
                     <p>
-                    I'm a Colombian web developer, i'm in love with the web design and in the fact to be able to create beautiful web pages with my skills, i also love the video games and the movies. If you wanna get in touch with me, let's do it!
+                    I'm a Colombian web developer, i'm in love with the web design and in the fact of being able to create beautiful web pages with my skills, i also love the video games and the movies. If you wanna get in touch with me, let's do it!
                     </p>
                     <HashLink className="vdd2" to="#connect">
                       <button>
