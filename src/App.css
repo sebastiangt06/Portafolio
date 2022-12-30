@@ -84,11 +84,19 @@ input:focus, textarea:focus, select:focus {
 }
 
 p.success {
-	color: white;
+  border-radius: 10px;
+  background:rgba(47, 189, 135, 0.603);
+  padding: 15px;
+  font-weight: bold;
+	color:#fff;
 }
 
 p.danger {
-	color:black;
+  border-radius: 10px;
+  background:rgba(209, 69, 44, 0.603);
+  padding: 15px;
+  font-weight: bold;
+	color:#fff;
 }
 /************ Navbar Css ************/
 nav.navbar {
@@ -157,7 +165,7 @@ span.navbar-text {
 	transition: 0.3s ease-in-out;
 }
 .social-icon2 img{
-  width: 48.5% !important;
+  width: 40% !important;
   
 }
 .social-icon a:hover img {

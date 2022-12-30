@@ -71,16 +71,7 @@ export const Banner = () => {
                       <span className="wrap"> {text}</span>
                     </h1>
                     <p>
-                      I'm a junior web developer, I have been focus on both,
-                      web pages and applications, using JavaScript programming
-                      language, React.js framework and the different libraries
-                      for CSS. All of this it wouldn't be possible without using
-                      node.js with express.js framework to work on the SSR and
-                      handle HTTP requests (CRUD) while interacting with the
-                      database (MongoDB and PostgreSQL). SCRUM methodology was
-                      one of the crucial parts to dev some projects so i'm very
-                      familiar with this agile methodology and with the teamwork
-                      that this entails.
+                    I'm a Colombian web developer, i'm in love with the web design and in the fact to be able to create beautiful web pages with my skills, i also love the video games and the movies. If you wanna get in touch with me, let's do it!
                     </p>
                     <HashLink className="vdd2" to="#connect">
                       <button>

@@ -49,7 +49,7 @@ export const NavBar = () => {
               <a href="https://www.linkedin.com/in/sebastiangpg/">
                 <img src={navIcon1} alt=""></img>
               </a>
-              <a className="social-icon2" href="https://github.com/sebastiangt06">
+              <a  href="https://github.com/sebastiangt06">
                 <img src={navIcon2} alt=""></img>
               </a>
               <a href="https://www.instagram.com/sebastiangt06/">
