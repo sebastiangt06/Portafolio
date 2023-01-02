@@ -15,7 +15,7 @@ export const Projects = () => {
       description:
         "Aplicacion que lista los ingresos y egresos de una empresa, protegido con sistema de login, ideal para administradores y usuarios",
       imgUrl: projImg2,
-      gitUrl: "",
+      gitUrl: "https://github.com/Warbug-MisionTic/Warbug",
       projUrl: "",
     },
     {

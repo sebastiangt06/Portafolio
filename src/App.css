@@ -198,6 +198,7 @@ span.navbar-text {
 }
 .navbar-text button:hover {
   color: #121212;
+  
 }
 .navbar-text button:hover::before {
 	content: "";
@@ -459,7 +460,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, rgba(54, 85, 170, 0.8) -5.91%, rgba(47, 189, 177, 0.8) 111.58%);
+  background: linear-gradient(90.21deg, rgba(54, 85, 170, 0.8) -5.91%, rgba(47, 188, 176, 0.8) 111.58%);
   opacity: 1;
   position: absolute;
   width: 100%;
