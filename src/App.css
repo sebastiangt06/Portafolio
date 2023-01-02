@@ -511,6 +511,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none !important;
 }
 .btn-git, .btn-link{
+  cursor: pointer;
   border-radius: 30px;
   font-weight: 400;
   color: #fff;
