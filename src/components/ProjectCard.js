@@ -13,7 +13,7 @@ export const ProjectCard = ({
     if (projUrl === "") {
       Swal.fire({
         title: "I'm sorry",
-        text: "The online page its not available",
+        text: "The online page for this project its not available",
         icon: "info",
         background: "#121212",
         color: '#B8B8B8',
