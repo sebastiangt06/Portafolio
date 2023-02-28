@@ -4,7 +4,8 @@ import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2-copia.png";
 import projImg1 from "../assets/img/projImg1.png";
 import projImg2 from "../assets/img/appcostos.jpg";
-import projImg3 from "../assets/img/workprogress3.jpg";
+import projImg3 from "../assets/img/workinprogress.png";
+import projImg4 from "../assets/img/movieapp.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -36,6 +37,14 @@ export const Projects = () => {
       imgUrl: projImg3,
       gitUrl: "",
       projUrl: "",
+    },
+    {
+      title: "Movie Searcher",
+      description:
+        "A movie searcher application, build with React Js, using useRef, useCallBack and useMemo reactHooks.",
+      imgUrl: projImg4,
+      gitUrl: "https://github.com/sebastiangt06/movie-searcher",
+      projUrl: "https://movie-searcher-six.vercel.app/",
     },
   ];
   return (
