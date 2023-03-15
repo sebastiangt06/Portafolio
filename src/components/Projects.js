@@ -6,6 +6,7 @@ import projImg1 from "../assets/img/projImg1.png";
 import projImg2 from "../assets/img/appcostos.jpg";
 import projImg3 from "../assets/img/workinprogress.png";
 import projImg4 from "../assets/img/movieapp.png";
+import projImg5 from "../assets/img/weatherapp.jpg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -45,6 +46,13 @@ export const Projects = () => {
       imgUrl: projImg4,
       gitUrl: "https://github.com/sebastiangt06/movie-searcher",
       projUrl: "https://movie-searcher-six.vercel.app/",
+    },
+    {
+        title: 'Weather APP',
+        description: 'A weather app build with React js using custom Hooks, useRef, useCallBack and useState reactHooks and connecting to he OpenWeather API',
+        imgUrl: projImg5,
+        gitUrl:'https://github.com/sebastiangt06/weatherapp',
+        projUrl:'https://weatherapp-olive-eta.vercel.app/',
     },
   ];
   return (
