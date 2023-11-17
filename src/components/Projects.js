@@ -7,15 +7,17 @@ import projImg2 from "../assets/img/appcostos.jpg";
 import projImg3 from "../assets/img/workinprogress.png";
 import projImg4 from "../assets/img/movieapp.png";
 import projImg5 from "../assets/img/weatherapp.jpg";
+import projImg6 from "../assets/img/projImg6.png";
+import projImg7 from "../assets/img/projImg7.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const teamProjects = [
     {
-      title: "Warbug Aplicacion de ingresos y egresos",
+      title: "Warbug Income and Expense Application",
       description:
-        "Aplicacion que lista los ingresos y egresos de una empresa, protegido con sistema de login, ideal para administradores y usuarios",
+        "An application designed to list the income and expenses of a company, featuring a secure login system. Built with Java using Spring Boot,Java with Thymeleaf, HTML, and CSS.",
       imgUrl: projImg2,
       gitUrl: "https://github.com/Warbug-MisionTic/Warbug",
       projUrl: "",
@@ -23,18 +25,17 @@ export const Projects = () => {
     {
       title: "Warbug Store Ecommerce",
       description:
-        "Tienda Ecommerce, desarrollada para la venta de articulos tecnologicos, protegida con sistema de login, sistema de administrador que permite ver las ventas hechas y su suma total",
+        "E-commerce store, secured with a login system. Includes an administrator system that allows tracking sales and their total sum. Built with React.js, Bootstrap, HTML, CSS, Node.js with Express.js, and MongoDB.",
       imgUrl: projImg1,
       gitUrl: "https://github.com/Warbug-MisionTic/DesarrolloWeb-Ciclo4",
       projUrl: "",
     },
-    
   ];
   const ownProjects = [
     {
-      title: "Calculadora de emisiones GEI",
+      title: "Greenhouse Gas Emissions Calculator",
       description:
-        "Calculadora de emisiones de gases de efecto invernadero, dirigida a personas que deseen saber cuantas emisiones generan dia a dia",
+        "Greenhouse Gas Emissions Calculator. Designed for individuals seeking to determine their daily greenhouse gas emissions.",
       imgUrl: projImg3,
       gitUrl: "",
       projUrl: "",
@@ -42,17 +43,34 @@ export const Projects = () => {
     {
       title: "Movie Searcher",
       description:
-        "A movie searcher application, build with React Js, using useRef, useCallBack and useMemo reactHooks.",
+        "A movie search application built with React.js, incorporating custom hooks like useRef, useCallback, and useMemo React hooks.",
       imgUrl: projImg4,
       gitUrl: "https://github.com/sebastiangt06/movie-searcher",
       projUrl: "https://movie-searcher-six.vercel.app/",
     },
     {
-        title: 'Weather APP',
-        description: 'A weather app build with React js using custom Hooks, useRef, useCallBack and useState reactHooks and connecting to he OpenWeather API',
-        imgUrl: projImg5,
-        gitUrl:'https://github.com/sebastiangt06/weatherapp',
-        projUrl:'https://weatherapp-olive-eta.vercel.app/',
+      title: "Weather APP",
+      description:
+        "A weather app, developed with React.js, utilizing custom hooks such as useRef, useCallback, and useMemo, and connected to the OpenWeather API.",
+      imgUrl: projImg5,
+      gitUrl: "https://github.com/sebastiangt06/weatherapp",
+      projUrl: "https://weatherapp-olive-eta.vercel.app/",
+    },
+    {
+      title: "Tesla clone web page",
+      description:
+        "A cloned webpage of the original Tesla landing page from June 2023, built with Astro and TailwindCSS.",
+      imgUrl: projImg6,
+      gitUrl: "https://github.com/sebastiangt06/tesla-clone",
+      projUrl: "https://tesla-clone-nu-two.vercel.app/",
+    },
+    {
+      title: "Real time chat",
+      description:
+        "A small real-time chat exercise built in Node.js with Express.js, using web sockets and an API for user identification. Due to its persistence of past chats, it uses a free SQL database provided by Turso. The minimalistic styles were developed using TailwindCSS.",
+      imgUrl: projImg7,
+      gitUrl: "https://github.com/sebastiangt06/realtime-chat-nodejs",
+      projUrl: "https://realtimechat-q083.onrender.com/",
     },
   ];
   return (
@@ -69,30 +87,36 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    As a junior web developer, i have been focus on both, web
-                    pages and applications, using for the Front-end JavaScript
-                    programming language, React.Js framework, HTML, and CSS with
-                    Bootstrap. All of this it wouldn't be possible without using
-                    Node.Js with Express.Js framework to work on the SSR and
-                    handle HTTP requests (CRUD) while interacting with the
-                    database (MongoDB). Furthermore, i had the opportunity to
-                    participate as a developer on the project 'Warbug aplicacion
-                    de ingresos y egresos', which has Java with springboot as a
-                    tecnologie for the backend and Java-Thymeleaf with HTML and
-                    CSS for the frontend.
+                    As a web developer, I have focused on both web pages and
+                    applications using the JavaScript programming language. I've
+                    worked with React.js and Angular as frameworks, and utilized
+                    Bootstrap CSS along with the Tailwind CSS for styles.
+                    Utilizing these front-end frameworks has taught me a lot about clean
+                    architecture and how to initiate a project. 
+                  </p>
+                  <p>
+                  Additionally, I've explored Node.js with Express and Java with Spring Boot
+                    for implementing backend functionalities. Currently, I am in
+                    the process of learning Astro and Next.js. These emerging
+                    technologies, combined with Bootstrap CSS and the Tailwind
+                    CSS framework, complement my skill set and enable me to
+                    explore innovative approaches in web development.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="second">
                     <Nav
                       variant="pills"
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab"
-                      fill='true' justify='true'
+                      fill="true"
+                      justify="true"
                     >
                       <Nav.Item>
                         <Nav.Link eventKey="first">Own Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Made it with a team</Nav.Link>
+                        <Nav.Link eventKey="second">
+                          Made it with a team
+                        </Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -102,7 +126,11 @@ export const Projects = () => {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <p>These are the projects that i made by my own, i used React Js, HTML5, JavaScript, CSS Bootstrap and NodeJs .</p>
+                        <p>
+                          These are the projects that i made by my own, i used
+                          React Js, Astro, ExpressJs, NodeJs, HTML5, JavaScript,
+                          CSS Bootstrap and TailwindCSS.
+                        </p>
                         <Row className="cards-container">
                           {ownProjects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
@@ -110,7 +138,13 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>These academic projects were made it by a team in MisionTic 2022 where i was a  full stack developer, we use different tecnologies as React Js, Node Js, Java Springboot, Java Thymeleaf and others.</p>
+                        <p>
+                          These academic projects were developed by a team in
+                          MisionTic 2022, where I served as a full-stack
+                          developer. We utilized various technologies such as
+                          React.js, Node.js, Java Spring Boot, Java Thymeleaf,
+                          among others.
+                        </p>
                         <Row className="cards-container">
                           {teamProjects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
@@ -125,7 +159,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   );
 };
